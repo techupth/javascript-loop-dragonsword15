@@ -2,10 +2,7 @@
 let restaurants = ["KFC", "MOMO PARADISE", "Nabezo"];
 let newRestaurants = [];
 // Start coding here
-let key = 0;
-while ( key < restaurants.length) {
-    newRestaurants.push(`Restaurant Name: ${restaurants[key]}`);
-    key++
+for (let m = 0; m < restaurants.length; m++) {
+    newRestaurants.push(`Restaurant Name: ${restaurants[m]}`);
 };
-
-console.log(newRestaurants);
+console.log(newRestaurants)

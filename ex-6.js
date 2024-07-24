@@ -6,5 +6,4 @@ let reversedCompanyName = "";
 for (let m = 0; m < companyName.length; m++) {
     reversedCompanyName = companyName[m] + reversedCompanyName;
 };
-
-console.log(reversedCompanyName);
+console.log(reversedCompanyName)
